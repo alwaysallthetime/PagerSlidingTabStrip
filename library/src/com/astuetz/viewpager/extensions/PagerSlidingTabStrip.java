@@ -268,7 +268,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 
 			View v = tabsContainer.getChildAt(i);
 
-			v.setLayoutParams(defaultTabLayoutParams);
+			v.setLayoutParams(expandedTabLayoutParams);
 			v.setBackgroundResource(tabBackgroundResId);
 			if (shouldExpand) {
 				v.setPadding(0, 0, 0, 0);
